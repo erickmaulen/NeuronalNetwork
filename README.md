@@ -1,5 +1,5 @@
 # RedNeuronal
-Para este desafio se implemento un perceptron multicapa sin librerias externas que lo hicieran automaticamente.\
+Para este desafio se implemento un perceptron multicapa sin librerias externas que lo hicieran automaticamente.
 
 ## Dependencias
 Para poder ejecutar este programa necesitaremos:
