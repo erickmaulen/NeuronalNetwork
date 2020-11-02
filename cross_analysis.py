@@ -56,8 +56,6 @@ def evaluate_algorithm(dataset, algorithm, num_folds, *args):
         for row in fold:
             row_copy = list(row)
             test_set.append(row_copy)
-            #Los valores de salida se borran para evitar trampas accidentales por parte de los algoritmos.
-            #row_copy[0] = None
         predicted = algorithm(train_set, test_set, *args)
         actual = [row[0] for row in fold]
         exactitud = precision(actual, predicted)
